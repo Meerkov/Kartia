@@ -1,5 +1,5 @@
 # Kartia Randomizer
-Kartia Randomizer is a tool that can be used with Bizhawk to create a unique Kartia playing experience.
+Kartia Randomizer is a tool that can be used with Bizhawk to create a unique Kartia playing experience. You must have a working copy of Kartia for the PSX before using this tool.
 
 # What does it do
 There are two modes:
