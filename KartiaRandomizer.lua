@@ -18,6 +18,10 @@ randomizeLevels = 1, -- Shuffle all chests across all levels
 -- You don't need to look at anything below this.
 ------------------------------------------------------------
 
+function randomizeSeed()
+  settings.seed = os.clock();
+end
+
 if(settings.seed == 0) then
  randomizeSeed();
 end
@@ -27,9 +31,6 @@ ToxaNumItems =  { 2, 7, 4, 8, 8, 5, 7, 9, 7, 8, 5,10, 7, 8, 7, 9, 9, 4}
 LacrymaChestStart = 0x79C58 
 LacrymaNumItems = { 5, 5, 4, 3, 8, 3, 9, 6, 4, 7, 9,10,10,10,10,12, 8, 0}
 
-function randomizeSeed()
-  settings.seed = os.clock();
-end
 
 print("Seed: "..settings.seed);
 
