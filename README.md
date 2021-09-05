@@ -28,3 +28,7 @@ That's it!
 
 # Known Issues
 On Lacryma's story (I think level 6?), there are 3 treasures burried underground that use the same drop from the item table. This can be confusing, as you may see a notification multiple times for the same treasure. Don't worry, this is working correctly. The game is just programmed to re-use that item multiple times on that level. There might be other levels that use the same drop multiple times, but I'm not sure.
+
+Loading the game from memory card might result in a corrupted save (unconfirmed). Use save-states instead.
+
+The seed mode isn't stable if you close the emulator and restart it. It will shuffle the remaining chests in a different way.
